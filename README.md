@@ -58,11 +58,17 @@ Visit http://localhost:3000 in your browser to use the app.
 5.  ###🧪 Usage
 
      Once the server is running:
+    
      Navigate to the home page.
+
      Use the interface to:
+
      Add new employees
+
      View a list of all employees
+
      Update employee details
+
      Delete employees from the list
     
 
