@@ -30,10 +30,44 @@ A simple web application for managing employee records using **Express**, **Pug*
 
 ## 📦 Installation
 
-### 1. Clone the repository
+1. ###  Clone the repository
 
-```bash
-git clone https://github.com/your-username/Employee_Management.git
+    ```bash
+      git clone https://github.com/your-username/Employee_Management.git
+
+2. ### Install Dependencies
+
+    ```bash
+    npm install node
+    npm install express
+    npm install mongoose
+    npm install pug
+
+3. ### Ensure MongoDB is Running
+
+   ```bash
+     mongod
+
+4.  ### 🏃‍♂️ Run the Application
+
+    ```bash
+      node server.js
+
+Visit http://localhost:3000 in your browser to use the app.
+
+5.  ###🧪 Usage
+
+     Once the server is running:
+     Navigate to the home page.
+     Use the interface to:
+     Add new employees
+     View a list of all employees
+     Update employee details
+     Delete employees from the list
+    
+
+
+
 
 
 
