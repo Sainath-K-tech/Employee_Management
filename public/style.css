@@ -1,0 +1,207 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+
+}
+
+h1 {
+  text-align: center;
+  color: #f4f7f7;
+  font-size: 2em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  padding: 10px;
+  
+}
+
+.anchor {
+  color: #fff;
+  background-color: #1d09f5;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+header {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #ff2600;
+  color: white;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 3px solid #0f0e0e;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+h2{
+    text-align: center;
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.form-title {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px 0;
+  font-size: 32px;
+  color: #222;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
+
+.form-container {
+  max-width: 600px;
+  width: 90%; 
+  margin: 40px auto;
+  padding: 25px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
+}
+
+.form-container:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.09);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #444;
+  font-size: 15px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fafafa;
+  margin-bottom: 15px; 
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.2);
+  outline: none;
+  background-color: #fff;
+  margin-bottom: 15px; 
+}
+
+.btn {
+  width: 50%;
+  padding: 14px 0;
+  font-size: 16px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin: 20px auto 0 auto;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #0056b3, #003f7f);
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(1px);
+  background: linear-gradient(135deg, #0044aa, #002a66);
+}
+
+@media (max-width: 640px) {
+  .btn {
+    width: 80%;
+  }
+    .form-container {
+        padding: 20px;
+    }
+
+  .form-title {
+    font-size: 26px;
+  }
+}
+
+button[type="submit"] {
+  width: 20%;                        /* Half width of form */
+  padding: 12px 0;                   /* Vertical padding, no horizontal needed */
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #0095ff;         /* Primary blue */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;                    /* Required for margin: auto to work */
+  margin: 20px auto 0 auto;          /* Centered horizontally */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #007bdb;         /* Darker on hover */
+  transform: translateY(-2px);       /* Slight lift */
+}
+
+button[type="submit"]:active {
+  background-color: #005fa3;         /* Even darker when clicked */
+  transform: translateY(1px);        /* Pressed down */
+}
+
+select {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #fafafa;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.2);
+  outline: none;
+  background-color: #fff;
+}
+

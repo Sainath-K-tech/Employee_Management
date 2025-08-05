@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  table
+    thead
+      tr
+        th EMP_ID
+        th NAME
+        th EMAIL
+        th NUMBER   
+        th GENDER 
+        th DEPARTMENT
+        th ADDRESS
+        th ACTIONS
+    tbody
+      each student in students
+        tr
+          td= student.e_id
+          td= student.e_name
+          td= student.e_email   
+          td= student.e_number
+          td= student.e_gender 
+          td= student.e_department
+          td= student.e_address
+          td
+            a(href=`/edit/${student._id}`) Edit |
+            a(href=`/delete/${student._id}` onclick="return confirm('Are you sure?')") Delete

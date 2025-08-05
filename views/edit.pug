@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  h2 Edit Employee
+  form(action=`/update/${student._id}`, method="POST")
+    label EMP_ID:
+    input(type="number", e_id="e_id", value=student.e_id, required)
+    br
+    label NAME:
+    input(type="text", name="e_name", value=student.e_name, required)
+    br
+    label EMAIL:
+    input(type="text", name="e_email", value=student.e_email, required)
+    br
+    label NUMBER:
+    input(type="text", name="e_number", value=student.e_number, required)
+    br
+    label GENDER:
+    input(type="text", name="e_gender", value=student.e_gender, required)
+    br
+    label DEPARTMENT:
+    input(type="text", name="e_department", value=student.e_department, required)
+    br
+    label ADDRESS:
+    input(type="text", name="e_address", value=student.e_address, required)
+    br
+    
+    button(type="submit") Update
